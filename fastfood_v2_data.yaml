@@ -1,0 +1,21 @@
+# Training/Validation dataset path
+path: datasets/fastfood_v2_yolo  # Dataset root directory
+train: images/train  # Training images directory
+val: images/val    # Validation images directory
+test: images/test    # Test images directory
+
+# Number of classes
+nc: 10
+
+# Class names
+names:
+  0: Baked Potato
+  1: Burger
+  2: Crispy Chicken
+  3: Donut
+  4: Fries
+  5: Hot Dog
+  6: Pizza
+  7: Sandwich
+  8: Taco
+  9: Taquito
